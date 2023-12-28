@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Couply</title>
+</head>
+<body>
+     
+    <section id = "header">
+        <header class="site-header">
+         <div class="container">
+           <h1>COUPLY - Coupon Management System</h1>
+           <div class="user-info">
+             <span>Welcome, <span id="username">John Doe</span>!</span>
+             <!-- Replace "John Doe" with the actual username -->
+           </div>
+         </div>
+       </header>
+     </section>
+     
+     <section id = "userData">
+       <table id = "couponTable" class = "styled-table">
+         <thead>
+           <tr>
+             <th class="no-border">COUPONID</th>
+             <th class="no-border">VALIDITY</th>
+             <th class="no-border">EDIT</th>
+           </tr>
+         </thead>
+         <tbody id="couponTableBody">
+           
+           
+           <!-- Add more rows as needed -->
+         </tbody>
+       </table>
+       
+     <!--   <button id="addRowBtn">Add Row</button> -->
+       
+       <div id = "labelinput">
+         <label for="couponInput">Coupon ID:</label>
+         <input type="text" id="couponInput">
+         <label for="validityInput">Validity:</label>
+         <input type="date" id="validityInput">
+         <button id="addRowBtn">Add Coupon</button>
+       </div>
+       <br>
+       <button id="getData">Fetch Generated Coupons</button>
+
+
+<script src="main.js"></script>
+</body>
+</html>
