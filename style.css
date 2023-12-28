@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+  }
+  
+  .site-header {
+    background-color: #066a56;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .user-info {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .styled-table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+     margin-left: 20px;
+  }
+  
+  .styled-table thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+  }
+  
+  
+  /*     th, td {
+        border: none; /* Removing borders between cells 
+        padding: 8px;
+        text-align: left;
+      }
+  
+      th:nth-child(1),
+      td:nth-child(1) {
+        min-width: 150px; /* Minimum width for COUPONID column 
+      }
+  
+      th:nth-child(2),
+      td:nth-child(2) {
+        min-width: 180px; /* Minimum width for VALIDITY column 
+      } */
+  
+  .styled-table th,
+  .styled-table td {
+      padding: 12px 15px;
+  }
+  
+  .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid #009879;
+  }
+  
+  .styled-table tbody tr.active-row {
+      font-weight: bold;
+      color: #009879;
+  }
+  
+  #addRowBtn{
+    margin-left: 20px;
+    background-color: #009879;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  #addRowBtn:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  
+  #labelinput *{
+    margin-left: 20px;
+  }
+  
+  #couponInput{
+    appearance: none;
+      border: none;
+      outline: none;
+      border-bottom: .2em solid #009879;
+      background: #92e2d2;
+      border-radius: .2em .2em 0 0;
+      padding: .4em;
+      color: #000000;
+      font-size: medium;
+  }
+  
+  #validityInput{
+     appearance: none;
+      border: none;
+      outline: none;
+      border-bottom: .2em solid #009879;
+      background: #ffffff
+      border-radius: .2em .2em 0 0;
+      padding: .4em;
+      color: #000000;
+    font-size: medium;
+  }
+
+  #getData{
+    margin-left: 20px;
+    background-color: #009879;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  #getData:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+
+  .rowdel{
+    background-color: #ff6d6d;
+    border: 1px solid #000000;
+
+  }
+
